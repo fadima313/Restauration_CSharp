@@ -1,0 +1,15 @@
+C:\Users\bmd-tech\Documents\SharpDevelop Projects\Projet_Resto\Projet_Resto\obj\Debug\Projet_Resto.csprojResolveAssemblyReference.cache
+C:\Users\bmd-tech\Documents\SharpDevelop Projects\Projet_Resto\Projet_Resto\obj\Debug\Projet_Resto.Authentification.resources
+C:\Users\bmd-tech\Documents\SharpDevelop Projects\Projet_Resto\Projet_Resto\obj\Debug\Projet_Resto.Lancement.resources
+C:\Users\bmd-tech\Documents\SharpDevelop Projects\Projet_Resto\Projet_Resto\obj\Debug\Projet_Resto.csproj.GenerateResource.Cache
+C:\Users\bmd-tech\Documents\SharpDevelop Projects\Projet_Resto\Projet_Resto\bin\Debug\Projet_Resto.exe.config
+C:\Users\bmd-tech\Documents\SharpDevelop Projects\Projet_Resto\Projet_Resto\bin\Debug\Projet_Resto.exe
+C:\Users\bmd-tech\Documents\SharpDevelop Projects\Projet_Resto\Projet_Resto\bin\Debug\Projet_Resto.pdb
+C:\Users\bmd-tech\Documents\SharpDevelop Projects\Projet_Resto\Projet_Resto\obj\Debug\Projet_Resto.exe
+C:\Users\bmd-tech\Documents\SharpDevelop Projects\Projet_Resto\Projet_Resto\obj\Debug\Projet_Resto.pdb
+C:\Users\bmd-tech\Documents\SharpDevelop Projects\Projet_Resto\Projet_Resto\obj\Debug\Projet_Resto.Gestion_Utilisateurs.resources
+C:\Users\bmd-tech\Documents\SharpDevelop Projects\Projet_Resto\Projet_Resto\obj\Debug\Projet_Resto.Prise_Commande.resources
+C:\Users\bmd-tech\Documents\SharpDevelop Projects\Projet_Resto\Projet_Resto\obj\Debug\Projet_Resto.GestionTableForm.resources
+C:\Users\bmd-tech\Documents\SharpDevelop Projects\Projet_Resto\Projet_Resto\obj\Debug\Projet_Resto.Gestion_De_Produits.resources
+C:\Users\bmd-tech\Documents\SharpDevelop Projects\Projet_Resto\Projet_Resto\obj\Debug\Projet_Resto.Gestion_De_Produit_Explicite.resources
+C:\Users\bmd-tech\Documents\SharpDevelop Projects\Projet_Resto\Projet_Resto\obj\Debug\Projet_Resto.AutresProduits.resources

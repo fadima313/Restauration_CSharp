@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{344803D6-69D6-4316-8BC5-8F20AC9C6FFF}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Projet_Resto</RootNamespace>
+    <AssemblyName>Projet_Resto</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <StartupObject>Projet_Resto.Program</StartupObject>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <SignAssembly>False</SignAssembly>
+    <DelaySign>False</DelaySign>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+    <SourceAnalysisOverrideSettingsFile>C:\Users\bmd-tech\AppData\Roaming\ICSharpCode\SharpDevelop5\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
+    <RunCodeAnalysis>False</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Authentification.cs" />
+    <Compile Include="Authentification.Designer.cs">
+      <DependentUpon>Authentification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AutresProduits.cs" />
+    <Compile Include="AutresProduits.Designer.cs">
+      <DependentUpon>AutresProduits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionTableForm.cs" />
+    <Compile Include="GestionTableForm.Designer.cs">
+      <DependentUpon>GestionTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion_De_Produits.cs" />
+    <Compile Include="Gestion_De_Produits.Designer.cs">
+      <DependentUpon>Gestion_De_Produits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion_De_Produit_Explicite.cs" />
+    <Compile Include="Gestion_De_Produit_Explicite.Designer.cs">
+      <DependentUpon>Gestion_De_Produit_Explicite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion_Utilisateurs.cs" />
+    <Compile Include="Gestion_Utilisateurs.Designer.cs">
+      <DependentUpon>Gestion_Utilisateurs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inputBox.cs">
+      <DependentUpon>Gestion_De_Produits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lancement.cs" />
+    <Compile Include="Lancement.Designer.cs">
+      <DependentUpon>Lancement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prise_Commande.cs" />
+    <Compile Include="Prise_Commande.Designer.cs">
+      <DependentUpon>Prise_Commande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Authentification.resx">
+      <DependentUpon>Authentification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutresProduits.resx">
+      <DependentUpon>AutresProduits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionTableForm.resx">
+      <DependentUpon>GestionTableForm.Designer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion_De_Produits.resx">
+      <DependentUpon>Gestion_De_Produits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion_De_Produit_Explicite.resx">
+      <DependentUpon>Gestion_De_Produit_Explicite.Designer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion_Utilisateurs.resx">
+      <DependentUpon>Gestion_Utilisateurs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lancement.resx">
+      <DependentUpon>Lancement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prise_Commande.resx">
+      <DependentUpon>Prise_Commande.Designer.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
